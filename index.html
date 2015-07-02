@@ -8,8 +8,8 @@
 </head>
 <body>
     <table ng-controller="MultiplicationCtrl">
-        <tr ng-repeat="numberA in numbers">
-            <td ng-repeat="numberB in numbers">
+        <tr ng-repeat="numberA in numbers()">
+            <td ng-repeat="numberB in numbers()">
                 {{ numberA * numberB }}
             </td>
         </tr>
