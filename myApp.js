@@ -8,9 +8,9 @@ angular.module('myApp', [])
             numbers[i] = i + 1;
         };
         return numbers;
-    };
+    };//number counter
 
     $scope.compute = function(a,b) {
         return a * b;
-    };
+    };//multiply function
 });
